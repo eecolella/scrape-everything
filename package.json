@@ -1,0 +1,22 @@
+{
+  "name": "crawler",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "dependencies": {
+    "bluebird": "^3.4.7",
+    "cheerio": "^0.22.0",
+    "colors": "^1.1.2",
+    "lodash": "^4.17.3",
+    "request": "^2.79.0"
+  },
+  "devDependencies": {
+    "babel-cli": "^6.18.0",
+    "babel-preset-latest": "^6.16.0",
+    "babel-watch": "^2.0.5"
+  },
+  "scripts": {
+    "example": "babel-node example/example.js",
+    "example-watch": "babel-watch ./example/example.js --ignore './example/output.json'"
+  }
+}
